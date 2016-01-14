@@ -1,0 +1,35 @@
+
+progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+progress::-webkit-progress-bar {
+    background: #FFFF00;
+    border-radius: 8px;
+    height:100%;
+    width: 100%;
+}
+
+progress::-webkit-progress-value {
+    background-color: #CC4600;
+    border-radius: 8px;
+}
+
+progress {
+    background: orange;
+    border-radius: 5px;
+    border-width: 0px;
+    height:25px;
+    width: 100%;
+}
+
+progress::-moz-progress-bar {
+    background-color: #CC4600;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
